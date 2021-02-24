@@ -10,7 +10,7 @@ class Body extends Component {
         var displayContent = () => {
             switch(this.props.activetab) {
                 case 0:
-                    return <Text></Text>
+                    return <Text/>
                 case 1:
                     return <Images />
                 case 2:
