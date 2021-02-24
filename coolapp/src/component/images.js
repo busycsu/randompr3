@@ -4,27 +4,9 @@ class Images extends Component {
     constructor() {
         super();
     }
-
-    onClickHandler = (event) => {
-        event.stopPropagation();
-    }
-
-    /* Source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_overlay_text */
-    showImgOverlay = (event) =>{
-        var overlay = document.getElementById("overlay");
-        var img = document.getElementById("overlay-item");
-        
-        overlay.style.display = "block";
-        img.src = event.target.src;
-    }
-
-    hideImgOverlay =()=> {
-        var overlay = document.getElementById("overlay");
-
-        overlay.style.display = "none";
-    }
-
     componentDidMount(){
+        // top btn
+        this.topbtndisplay();
         // Get the modal
         var modal = document.getElementById("myModal");
                     
@@ -34,7 +16,6 @@ class Images extends Component {
 
             // Get the image and insert it inside the modal - use its "alt" text as a caption
             var modalImg = document.getElementById("img01");
-            var captionText = document.getElementById("caption");
             img.onclick = function(){
                 modal.style.display = "block";
                 modalImg.src = this.src;
@@ -50,6 +31,29 @@ class Images extends Component {
         }
     }
 
+    topbtndisplay = () =>{
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+    }
+
+    topFunction =()=> {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+    }
+
+    
 
     render() {
         
@@ -167,10 +171,7 @@ class Images extends Component {
                     </div>  
                     
                 </div>
-
-                {/* <div id="overlay" className="overlay" onClick={this.hideImgOverlay}>
-                    <img id="overlay-item" className="overlay-item" onClick={this.onClickHandler}/>
-                </div> */}
+                <button onClick={this.topFunction} id="myBtn" title="Go to top">Top</button>
                 <div id="myModal" class="modal">
                     <img class="modal-content" id="img01" />
                 </div>
