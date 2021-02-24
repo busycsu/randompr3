@@ -58,112 +58,112 @@ class Images extends Component {
                 <br />
                 <div class="row"> 
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic8.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic8.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic10.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic10.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic9.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic9.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic11.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic11.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic8.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic8.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic12.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic12.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic11.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic11.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic10.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic10.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic9.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic9.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic12.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic12.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic8.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic8.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic10.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic10.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic12.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic12.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic9.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic9.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic8.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic8.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic11.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic11.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic12.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic12.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic9.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic9.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic8.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic8.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic11.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic11.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic10.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic10.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic12.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic12.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic9.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic9.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic11.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic11.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic12.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic12.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic8.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic8.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic8.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic8.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic10.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic10.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic8.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic8.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic10.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic10.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic8.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic8.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic10.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic10.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic8.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic8.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic10.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic10.jpg"} style={{width: "100%"}} />
                     </div>  
                     <div class="column">
-                        <img class="myImg" src={"/media/images/pic8.jpg"} style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic8.jpg"} style={{width: "100%"}} />
                     </div>
                     <div class="column">
-                        <img class="myImg" src="/media/images/pic10.jpg" style={{width: "100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic10.jpg"} style={{width: "100%"}} />
                     </div>  
                     
                 </div>

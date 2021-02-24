@@ -5,7 +5,7 @@ class Text extends Component {
         return (
                 <div class="row_2"> 
                     <div class="column_3">
-                        <img class="myImg" src="/media/images/pic9.jpg" style={{width:"100%"}} />
+                        <img class="myImg" src={process.env.PUBLIC_URL +"/media/images/pic9.jpg"} style={{width:"100%"}} />
                     </div>
                     <div class="column_2">
                         <h1>About me</h1>

@@ -34,27 +34,27 @@ class Videos extends Component {
             <div>
                 <div class="row">
                     <div class="column">
-                        <video class="myImg" width="280" height="200" src="/media/videos/video1.mp4" type="video/mp4" controls>                           
+                        <video class="myImg" width="280" height="200" src={process.env.PUBLIC_URL +"/media/videos/video1.mp4"} type="video/mp4" controls>                           
                         </video>
                     </div>
                     <div class="column">
-                        <video class="myImg" width="280" height="200" src="/media/videos/video2.mp4" type="video/mp4" controls >               
+                        <video class="myImg" width="280" height="200" src={process.env.PUBLIC_URL +"/media/videos/video2.mp4"} type="video/mp4" controls >               
                         </video>
                     </div>
                     <div class="column">
-                        <video class="myImg" width="280" height="200" src="/media/videos/video3.mp4" type="video/mp4" controls>
+                        <video class="myImg" width="280" height="200" src={process.env.PUBLIC_URL +"/media/videos/video3.mp4"} type="video/mp4" controls>
                         </video>
                     </div>
                     <div class="column">
-                        <video class="myImg" width="280" height="200" src="/media/videos/video3.mp4" type="video/mp4" controls>
+                        <video class="myImg" width="280" height="200" src={process.env.PUBLIC_URL +"/media/videos/video3.mp4"} type="video/mp4" controls>
                         </video>
                     </div>
                     <div class="column">
-                        <video class="myImg" width="280" height="200" src="/media/videos/video1.mp4" type="video/mp4" controls>                           
+                        <video class="myImg" width="280" height="200" src={process.env.PUBLIC_URL +"/media/videos/video1.mp4"} type="video/mp4" controls>                           
                         </video>
                     </div>
                     <div class="column">
-                        <video class="myImg" width="280" height="200" src="/media/videos/video2.mp4" type="video/mp4" controls >               
+                        <video class="myImg" width="280" height="200" src={process.env.PUBLIC_URL +"/media/videos/video2.mp4"} type="video/mp4" controls >               
                         </video>
                     </div>
                     <div id="myModal" class="modal">                
