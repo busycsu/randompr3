@@ -90,6 +90,7 @@
 /* The Modal (background) */
 .modal {
   background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
   bottom: 0;
   display: none;
   height: 100vh;
